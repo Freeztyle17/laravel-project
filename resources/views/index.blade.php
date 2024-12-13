@@ -47,11 +47,11 @@
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+							<a href=""><i class="fa fa-vk"></i></a>
+							<a href=""><i class="fa fa-telegram"></i></a>
+							<a href=""><i class="fa fa-odnoklassniki"></i></a>
+
+                            <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i>Регистрация</a>
@@ -73,7 +73,7 @@
 							<li><a href="{{route('index')}}">Главная</a></li>
 							<li><a href="{{route('about')}}">О Нас</a></li>
 							<li><a href="{{route('postpage')}}">Склады</a></li>
-							<li><a href="{{route('blog')}}">Блог</a></li>
+							<li><a href="{{route('blog')}}">Новости</a></li>
 							<li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
@@ -329,17 +329,16 @@
                         имущества владельцу за владение и пользование им, в частности: согласованная сумма,
                         выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
 					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="contact-widget">
 						<h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
-						<p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 60/1</p>
+						<p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
                         <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
 						<p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
 						<p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>
@@ -389,9 +388,8 @@
       <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
         <!--Header-->
         <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> UP</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Регистрация</strong> </h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Закрыть">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -403,7 +401,7 @@
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <a href="{{route('signupadvisor')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Property Advisor</button></a>
+              <a href="{{route('signupadvisor')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Юридическое лицо</button></a>
             </div>
             <!--Grid column-->
           </div>
@@ -412,7 +410,7 @@
 			<div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <a href="{{route('signuptenet')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Tenant</button></a>
+              <a href="{{route('signuptenet')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Физическое лицо</button></a>
             </div>
             <!--Grid column-->
           </div>
@@ -421,8 +419,8 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-12">
-              <p  class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" id="loginform" class="green-text ml-1 font-weight-bold">
-                  Log in</a></p>
+              <p  class="font-small white-text d-flex justify-content-end">Если аккаунт? <a href="#" id="loginform" class="green-text ml-1 font-weight-bold">
+                  Войти</a></p>
             </div>
             <!--Grid column-->
           </div>
@@ -447,9 +445,8 @@
       <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
         <!--Header-->
         <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> In</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Войти</strong> </h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Закрыть">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -469,17 +466,17 @@
 		@endif
           <div class="md-form mb-5">
             <input type="email" name="email" id="Form-email5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
+            <label data-error="wrong" data-success="right" for="Form-email5">Ваш email</label>
           </div>
           <div class="md-form pb-3">
             <input type="password" name="pass"  id="Form-pass5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
+            <label data-error="wrong" data-success="right" for="Form-pass5">Ваш пароль</label>
           </div>
           <!--Grid row-->
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Sign in</button>
+              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Войти</button>
             </div>
             <!--Grid column-->
           </div>
@@ -489,8 +486,8 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-12">
-              <p  class="font-small white-text d-flex justify-content-end">Create Account? <a href="#" id="createsignup" class="green-text ml-1 font-weight-bold">
-                  Signup</a></p>
+              <p  class="font-small white-text d-flex justify-content-end">Нет аккаунта? <a href="#" id="createsignup" class="green-text ml-1 font-weight-bold">
+                  Зарегистрироваться</a></p>
             </div>
             <!--Grid column-->
           </div>

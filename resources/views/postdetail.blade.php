@@ -6,7 +6,7 @@
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+	<!-- Favicon -->
 	<link href="img/icon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
@@ -32,7 +32,7 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="header-top">
@@ -41,20 +41,20 @@
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
 							<i class="fa fa-phone"></i>
-							(+92) 3017160701
+                            +7 (917) 123-45-67 (Александр)
 						</div>
 						<div class="top-info">
 							<i class="fa fa-envelope"></i>
-							rentallands@gmail.com
+                            WorldWarehouseLeader@mail.ru
 						</div>
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href=""><i class="fa fa-vk"></i></a>
+                            <a href=""><i class="fa fa-telegram"></i></a>
+                            <a href=""><i class="fa fa-odnoklassniki"></i></a>
+
+                            <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
@@ -73,11 +73,11 @@
 							<i class="fa fa-bars"></i>
 						</div>
 						<ul class="main-menu">
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('about')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
+                            <li><a href="{{route('index')}}">Главная</a></li>
+                            <li><a href="{{route('about')}}">О Нас</a></li>
+                            <li><a href="{{route('postpage')}}">Склады</a></li>
+                            <li><a href="{{route('blog')}}">Новости</a></li>
+                            <li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -210,64 +210,58 @@
 
 
 	<!-- Footer section -->
-	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>Lorem ipsum dolo sit azmet, consecter dipise consult  elit. Maecenas mamus antesme non anean a dolor sample tempor nuncest erat.</p>
-					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="contact-widget">
-						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>29F berkat market central plaza lahore </p>
-						<p><i class="fa fa-phone"></i>(+92) 301 716 0701</p>
-						<p><i class="fa fa-envelope"></i>www.rentallands.com</p>
-						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
-						<ul>
-							<li><a href="">Khanewal</a></li>
-							<li><a href="">Karachi</a></li>
-							<li><a href="">KPK</a></li>
-							<li><a href="">Attock</a></li>
-							<li><a href="">Rawelpindi</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Sindh</a></li>
-							<li><a href="">Islamabad</a></li>
-							<li><a href="">Muree</a></li>
-							<li><a href="">Kashmeer</a></li>
-							<li><a href="">Sahiwal</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-			<div class="footer-bottom">
-				<div class="footer-nav">
-					<ul>
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('blog')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
-					</ul>
-				</div>
-				<span style="color:white">Developer : Abdullah Iftikhar BSCS 14F014</span>
-			</div>
-		</div>
-	</footer>
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <img src="img/logo.png" alt="">
+                    <p>Обычно фиксированный периодический возврат, осуществляемый арендатором или занимающим его лицом
+                        имущества владельцу за владение и пользование им, в частности: согласованная сумма,
+                        выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="contact-widget">
+                        <h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
+                        <p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
+                        <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
+                        <p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
+                        <p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="double-menu-widget">
+                        <h5 class="fw-title">ГОРОДА С НАМИ</h5>
+                        <ul>
+                            <li><a href="">Саратов</a></li>
+                            <li><a href="">Волгоград</a></li>
+                            <li><a href="">Москва</a></li>
+                            <li><a href="">Пенза</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="{{route('index')}}">Главная</a></li>
+                        <li><a href="{{route('blog')}}">О Нас</a></li>
+                        <li><a href="{{route('postpage')}}">Склады</a></li>
+                        <li><a href="{{route('blog')}}">Блог</a></li>
+                        <li><a href="{{route('contact')}}">Контакты</a></li>
+                    </ul>
+                </div>
+                <span style="color:white">Арендация складских хранилищ. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
 	<!-- Footer section end -->
 
 <!-- Modal for Button-->
@@ -279,21 +273,20 @@
       <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
         <!--Header-->
         <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> UP</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Регистрация</strong> </h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Закрыть">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <!--Body-->
         <div class="modal-body">
           <!--Body-->
-        
+
           <!--Grid row-->
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <a href="{{route('signupadvisor')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Property Advisor</button></a>
+              <a href="{{route('signupadvisor')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Юридическое лицо</button></a>
             </div>
             <!--Grid column-->
           </div>
@@ -302,7 +295,7 @@
 			<div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <a href="{{route('signuptenet')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Tenant</button></a>
+              <a href="{{route('signuptenet')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Физическое лицо</button></a>
             </div>
             <!--Grid column-->
           </div>
@@ -311,8 +304,8 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-12">
-              <p  class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" id="loginform" class="green-text ml-1 font-weight-bold">
-                  Log in</a></p>
+              <p  class="font-small white-text d-flex justify-content-end">Если аккаунт? <a href="#" id="loginform" class="green-text ml-1 font-weight-bold">
+                  Войти</a></p>
             </div>
             <!--Grid column-->
           </div>
@@ -325,7 +318,7 @@
   </div>
 </div>
 <!-- Modal for Button -->
-<!-- Modal Login -->	
+<!-- Modal Login -->
 <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog form-dark" role="document">
@@ -337,9 +330,8 @@
       <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
         <!--Header-->
         <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> In</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Войти</strong> </h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Закрыть">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -359,17 +351,17 @@
 		@endif
           <div class="md-form mb-5">
             <input type="email" name="email" id="Form-email5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
+            <label data-error="wrong" data-success="right" for="Form-email5">Ваш email</label>
           </div>
           <div class="md-form pb-3">
             <input type="password" name="pass"  id="Form-pass5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
+            <label data-error="wrong" data-success="right" for="Form-pass5">Ваш пароль</label>
           </div>
           <!--Grid row-->
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Sign in</button>
+              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Войти</button>
             </div>
             <!--Grid column-->
           </div>
@@ -379,8 +371,8 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-12">
-              <p  class="font-small white-text d-flex justify-content-end">Create Account? <a href="#" id="createsignup" class="green-text ml-1 font-weight-bold">
-                  Signup</a></p>
+              <p  class="font-small white-text d-flex justify-content-end">Нет аккаунта? <a href="#" id="createsignup" class="green-text ml-1 font-weight-bold">
+                  Зарегистрироваться</a></p>
             </div>
             <!--Grid column-->
           </div>
@@ -394,7 +386,7 @@
 <!-- Modal for signin-->
 
 
-                                        
+
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -403,24 +395,24 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 
-	<script> 
+	<script>
 		$('#registerbutton').on('click', function() {
-    //  alert("hello"); 
-     $('#register').modal('show');  
+    //  alert("hello");
+     $('#register').modal('show');
  });
  $('#logbutton').on('click', function() {
-    //  alert("hello"); 
-     $('#login').modal('show');  
+    //  alert("hello");
+     $('#login').modal('show');
  });
  $('#createsignup').on('click', function() {
-	//  alert("hello"); 
+	//  alert("hello");
 	$('#login').modal('hide');
-     $('#register').modal('show');  
+     $('#register').modal('show');
  });
  $('#loginform').on('click', function() {
-	//  alert("hello"); 
+	//  alert("hello");
 	$('#register').modal('hide');
-     $('#login').modal('show');  
+     $('#login').modal('show');
  });
 	</script>
 

@@ -6,7 +6,7 @@
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+	<!-- Favicon -->
 	<link href="img/icon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
@@ -40,7 +40,7 @@
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
 							<i class="fa fa-phone"></i>
-							(+92) 3017160701
+                            +7 (917) 123-45-67 (Александр)
 						</div>
 						<div class="top-info">
 							<i class="fa fa-envelope"></i>
@@ -49,11 +49,11 @@
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+                            <li><a href="{{route('index')}}">Главная</a></li>
+                            <li><a href="{{route('about')}}">О Нас</a></li>
+                            <li><a href="{{route('postpage')}}">Склады</a></li>
+                            <li><a href="{{route('blog')}}">Новости</a></li>
+                            <li><a href="{{route('contact')}}">Контакты</a></li>
 						</div>
 						<div class="user-panel">
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
@@ -72,11 +72,11 @@
 							<i class="fa fa-bars"></i>
 						</div>
 						<ul class="main-menu">
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('about')}}">About US</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
+                            <li><a href="{{route('index')}}">Главная</a></li>
+                            <li><a href="{{route('about')}}">О Нас</a></li>
+                            <li><a href="{{route('postpage')}}">Склады</a></li>
+                            <li><a href="{{route('blog')}}">Новости</a></li>
+                            <li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -102,8 +102,8 @@
 	<!-- Breadcrumb -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="{{route('index')}}"><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>Blog Details</span>
+			<a href="{{route('index')}}"><i class="fa fa-home"></i>Главная</a>
+			<span><i class="fa fa-angle-right"></i>Новости</span>
 		</div>
 	</div>
 
@@ -207,7 +207,7 @@
 		</div>
 	</section>
 	<!-- page end-->
-       
+
 
 	<!-- Clients section -->
 	<div class="clients-section">
@@ -235,67 +235,61 @@
 
 
 	<!-- Footer section -->
-	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>Lorem ipsum dolo sit azmet, consecter dipise consult  elit. Maecenas mamus antesme non anean a dolor sample tempor nuncest erat.</p>
-					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="contact-widget">
-						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>29F berkat market central plaza lahore </p>
-						<p><i class="fa fa-phone"></i>(+92) 301 716 0701</p>
-						<p><i class="fa fa-envelope"></i>www.rentallands.com</p>
-						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
-						<ul>
-							<li><a href="">Khanewal</a></li>
-							<li><a href="">Karachi</a></li>
-							<li><a href="">KPK</a></li>
-							<li><a href="">Attock</a></li>
-							<li><a href="">Rawelpindi</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Sindh</a></li>
-							<li><a href="">Islamabad</a></li>
-							<li><a href="">Muree</a></li>
-							<li><a href="">Kashmeer</a></li>
-							<li><a href="">Sahiwal</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-			<div class="footer-bottom">
-				<div class="footer-nav">
-					<ul>
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('blog')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
-					</ul>
-				</div>
-				<span style="color:white">Developer : Abdullah Iftikhar BSCS 14F014</span>
-			</div>
-		</div>
-	</footer>
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <img src="img/logo.png" alt="">
+                    <p>Обычно фиксированный периодический возврат, осуществляемый арендатором или занимающим его лицом
+                        имущества владельцу за владение и пользование им, в частности: согласованная сумма,
+                        выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="contact-widget">
+                        <h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
+                        <p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
+                        <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
+                        <p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
+                        <p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="double-menu-widget">
+                        <h5 class="fw-title">ГОРОДА С НАМИ</h5>
+                        <ul>
+                            <li><a href="">Саратов</a></li>
+                            <li><a href="">Волгоград</a></li>
+                            <li><a href="">Москва</a></li>
+                            <li><a href="">Пенза</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="{{route('index')}}">Главная</a></li>
+                        <li><a href="{{route('blog')}}">О Нас</a></li>
+                        <li><a href="{{route('postpage')}}">Склады</a></li>
+                        <li><a href="{{route('blog')}}">Блог</a></li>
+                        <li><a href="{{route('contact')}}">Контакты</a></li>
+                    </ul>
+                </div>
+                <span style="color:white">Арендация складских хранилищ. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
 	<!-- Footer section end -->
 
-                                        
+
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
