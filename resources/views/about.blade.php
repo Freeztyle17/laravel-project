@@ -108,22 +108,22 @@
 			<div class="row about-text">
 				<div class="col-xl-6 about-text-left">
 					<h5>О нас</h5>
-					<p>The dominant methods for paying rent are cash (22 percent), check (42 percent), and money order (16 percent). Electronic methods are still rarely used, at 8 percent for bank account number payment and 7 percent for online banking bill payment, and less than 2 percent for debit and credit cards.
-.</p>
-					<p>Apartment searching can be exciting for tenants — it’s an opportunity for them to upgrade their life. Writing an engaging rental listing description is a way to sell a lifestyle you can provide. Tenants will be thrilled to find a better location, a better price, better amenities, or even a better landlord.
+					<p>Наша компания специализируется на предоставлении высококачественных услуг по аренде складов. Мы предлагаем широкий ассортимент складских помещений, которые соответствуют самым высоким стандартам безопасности и удобства. Наши склады оснащены современными системами охраны и контроля климата, что гарантирует сохранность ваших товаров в любых условиях. Мы гордимся тем, что можем предложить нашим клиентам гибкие условия аренды и индивидуальный подход к каждому проекту.
+</p>
+					<p>Наша команда профессионалов всегда готова помочь вам выбрать оптимальное решение для ваших логистических задач. Мы ценим каждого клиента и стремимся к долгосрочному сотрудничеству, основанному на доверии и взаимовыгодных условиях. Обращаясь к нам, вы получаете не только надежное складское помещение, но и комплексное обслуживание, включающее консультации, поддержку и оперативное решение любых возникающих вопросов.
 
 
 
 </p>
 				</div>
 				<div class="col-xl-6 about-text-right">
-					<h5>OUR QUALITY</h5>
-					<p>Keep in mind that tenants will read a lot of listings, so you’ll need to stand out from your competition. A great way to do that is by avoiding phrases like, ‘great amenities’ or ‘convenient location.’ It’s more impactful to describe the unique attributes of your unit.</p>
+					<h5>Наши преимущества</h5>
+
 					<ul class="about-list">
-						<li><i class="fa fa-check-circle-o"></i>Highlight popular features if you have them. According to Zillow’s published trends, including things like farmhouse sinks, barn doors, subway tiles, and quartz are selling points. Units with these features are renting faster and for more money, so be sure to highlight popular features in your listing description if you have them.</li>
-						<li><i class="fa fa-check-circle-o"></i>If your unit is luxurious because it is fully updated, then describe what is updated. It’s more effective to highlight what your unit offers a tenant — maybe it’s a faster commute because your unit is close to the train, or maybe it’s a fun neighborhood with bars nearby.</li>
-						<li><i class="fa fa-check-circle-o"></i>Rental listing descriptions are best formatted as a paragraph. Bullet-points are great for lists, but the description is not a list — it should be full of useful, persuasive information. It’s a more professional format.</li>
-						<li><i class="fa fa-check-circle-o"></i>While some landlords are hesitant to include the property address, it is best to include it. Most tenants do a map-based search, meaning they are looking for a property in a specific location. You want tenants to be able to find your unit in that location. It’s also more informative — tenants will typically skip a listing if the address isn’t specified.</li>
+						<li><i class="fa fa-check-circle-o"></i>Одним из ключевых преимуществ нашей компании является высокий уровень безопасности. Все наши складские помещения оснащены современными системами видеонаблюдения, охранными сигнализациями и круглосуточной охраной. Мы гарантируем, что ваши товары будут защищены от любых внешних угроз, обеспечивая вам спокойствие и уверенность в сохранности вашего имущества.</li>
+						<li><i class="fa fa-check-circle-o"></i>Мы предлагаем гибкие условия аренды, которые могут быть адаптированы под ваши конкретные потребности. Вы можете выбрать как краткосрочную, так и долгосрочную аренду, а также воспользоваться возможностью расширения или уменьшения арендуемой площади в зависимости от изменения ваших бизнес-потребностей. Наша цель — предоставить вам максимально удобные и выгодные условия сотрудничества.</li>
+						<li><i class="fa fa-check-circle-o"></i>Наши склады оснащены современными системами контроля климата, что позволяет поддерживать оптимальные условия хранения для различных типов товаров. Будь то продукты питания, медикаменты или другие чувствительные к температуре и влажности товары, мы гарантируем их сохранность и качество. Кроме того, мы предлагаем услуги по управлению запасами, что позволяет вам сосредоточиться на основных аспектах вашего бизнеса.</li>
+						<li><i class="fa fa-check-circle-o"></i>Мы гордимся нашей клиентоориентированной политикой и индивидуальным подходом к каждому клиенту. Наша команда профессионалов всегда готова предоставить консультации и поддержку на всех этапах сотрудничества. Мы ценим ваше время и стремимся к оперативному решению любых возникающих вопросов. Обращаясь к нам, вы получаете не только надежного партнера, но и дружелюбную команду, заинтересованную в вашем успехе.</li>
 					</ul>
 				</div>
 			</div>
@@ -141,9 +141,9 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 						</div>
-						<p>“Leramiz was quick to understand my needs and steer me in the right direction. Their professionalism and warmth made the process of finding a suitable home a lot less stressful than it could have been. Thanks, agent Tony Holland.”</p>
-						<h5>Stacy Mc Neeley</h5>
-						<span>CEP’s Director</span>
+						<p>"Сотрудничество с вашей компанией по аренде складов стало для нас настоящим открытием. Высокий уровень сервиса и гибкие условия аренды позволили нам значительно оптимизировать наши логистические процессы. Рекомендуем вас всем, кто ценит надежность и профессионализм!"</p>
+						<h5>Иванов Иван</h5>
+						<span>Логистический менеджер</span>
 						<div class="clint-pic set-bg" data-setbg="img/review/1.jpg"></div>
 					</div>
 					<div class="review-item text-white">
@@ -152,11 +152,11 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-full"></i>
 						</div>
-						<p>“Leramiz was quick to understand my needs and steer me in the right direction. Their professionalism and warmth made the process of finding a suitable home a lot less stressful than it could have been. Thanks, agent Tony Holland.”</p>
-						<h5>Stacy Mc Neeley</h5>
-						<span>CEP’s Director</span>
+						<p>“Мы давно искали надежного партнера для хранения наших товаров, и наконец нашли его в вашей компании. Современные складские помещения и высокий уровень безопасности дают нам уверенность в сохранности нашего имущества. Спасибо за отличную работу!"</p>
+						<h5>Петрова Мария</h5>
+						<span>Руководитель отдела закупок</span>
 						<div class="clint-pic set-bg" data-setbg="img/review/1.jpg"></div>
 					</div>
 					<div class="review-item text-white">
@@ -165,11 +165,11 @@
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-full"></i>
 						</div>
-						<p>“Leramiz was quick to understand my needs and steer me in the right direction. Their professionalism and warmth made the process of finding a suitable home a lot less stressful than it could have been. Thanks, agent Tony Holland.”</p>
-						<h5>Stacy Mc Neeley</h5>
-						<span>CEP’s Director</span>
+						<p>“Ваша компания предоставила нам именно то, что мы искали: гибкие условия аренды и высокое качество обслуживания. Благодаря вашему профессионализму, мы смогли сосредоточиться на развитии нашего бизнеса, не беспокоясь о хранении товаров. Огромное спасибо за вашу поддержку!”</p>
+						<h5>Сидоров Алексей</h5>
+						<span>Директор по логистике</span>
 						<div class="clint-pic set-bg" data-setbg="img/review/1.jpg"></div>
 					</div>
 				</div>
@@ -182,86 +182,62 @@
 		<section class="team-section spad pb-0">
 			<div class="container">
 				<div class="section-title text-center">
-					<h3>OUR AGENTS</h3>
-					<p>Our directory of real estate agents who can help you</p>
+					<h3>Наши сотрудники</h3>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="member-pic">
 								<img src="img/team/1.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-vk"></i></a>
+									<a href=""><i class="fa fa-telegram"></i></a>
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Jude Suares</h5>
-								<span>Real Estate  Agent</span>
+								<h5>Alexander Fedotov</h5>
+								<span>Глава компании</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09213546721</p>
-									<p><i class="fa fa-envelope"></i>jude@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+7 (937) 123-45-67</p>
+									<p><i class="fa fa-envelope"></i>Alexander@wwl.com</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="member-pic">
 								<img src="img/team/2.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-vk"></i></a>
+                                    <a href=""><i class="fa fa-telegram"></i></a>
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Glenn Azuelo</h5>
-								<span>Researcher</span>
+								<h5>Paul Ryasnov</h5>
+								<span>Руководитель отдела закупок</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09273452671</p>
-									<p><i class="fa fa-envelope"></i>glenn@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+7 (937) 876-54-32</p>
+									<p><i class="fa fa-envelope"></i>Paul@wwl.com</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="team-member">
-							<div class="member-pic">
-								<img src="img/team/3.jpg" alt="#">
-								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
-								</div>
-							</div>
-							<div class="member-info">
-								<h5>Caren Bautista</h5>
-								<span>Publisher</span>
-								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09124573451</p>
-									<p><i class="fa fa-envelope"></i>caren@gmail.com</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="member-pic">
 								<img src="img/team/4.jpg" alt="#">
 								<div class="member-social">
-									<a href=""><i class="fa fa-facebook"></i></a>
-									<a href=""><i class="fa fa-instagram"></i></a>
-									<a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-vk"></i></a>
+                                    <a href=""><i class="fa fa-telegram"></i></a>
 								</div>
 							</div>
 							<div class="member-info">
-								<h5>Princely Cezar</h5>
-								<span>Real Estate Agent</span>
+								<h5>Artem Farafonov</h5>
+								<span>Директор по логистике</span>
 								<div class="member-contact">
-									<p><i class="fa fa-phone"></i>09135672341</p>
-									<p><i class="fa fa-envelope"></i>princely@gmail.com</p>
+									<p><i class="fa fa-phone"></i>+7 (937) 345-67-89</p>
+									<p><i class="fa fa-envelope"></i>Artem@wwl.com</p>
 								</div>
 							</div>
 						</div>
