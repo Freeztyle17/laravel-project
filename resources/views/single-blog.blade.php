@@ -102,8 +102,8 @@
 	<!-- Breadcrumb -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="{{route('index')}}"><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>Blog Details</span>
+			<a href="{{route('index')}}"><i class="fa fa-home"></i>Главная</a>
+			<span><i class="fa fa-angle-right"></i>Новости</span>
 		</div>
 	</div>
 

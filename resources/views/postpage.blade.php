@@ -97,8 +97,8 @@
 	<!-- Breadcrumb -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="{{route('index')}}"><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>Properties</span>
+			<a href="{{route('index')}}"><i class="fa fa-home"></i>Главная</a>
+			<span><i class="fa fa-angle-right"></i>Склады</span>
 		</div>
 	</div>
 
@@ -293,9 +293,8 @@
       <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
         <!--Header-->
         <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> UP</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Регистрация</strong> </h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Закрыть">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -307,7 +306,7 @@
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <a href="{{route('signupadvisor')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Property Advisor</button></a>
+              <a href="{{route('signupadvisor')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Юридическое лицо</button></a>
             </div>
             <!--Grid column-->
           </div>
@@ -316,7 +315,7 @@
 			<div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <a href="{{route('signuptenet')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Tenant</button></a>
+              <a href="{{route('signuptenet')}} "><button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Физическое лицо</button></a>
             </div>
             <!--Grid column-->
           </div>
@@ -325,8 +324,8 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-12">
-              <p  class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" id="loginform" class="green-text ml-1 font-weight-bold">
-                  Log in</a></p>
+              <p  class="font-small white-text d-flex justify-content-end">Если аккаунт? <a href="#" id="loginform" class="green-text ml-1 font-weight-bold">
+                  Войти</a></p>
             </div>
             <!--Grid column-->
           </div>
@@ -351,9 +350,8 @@
       <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
         <!--Header-->
         <div class="modal-header text-center pb-4">
-          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
-              class="green-text font-weight-bold"><strong> In</strong></a></h3>
-          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>Войти</strong> </h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Закрыть">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -373,17 +371,17 @@
 		@endif
           <div class="md-form mb-5">
             <input type="email" name="email" id="Form-email5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
+            <label data-error="wrong" data-success="right" for="Form-email5">Ваш email</label>
           </div>
           <div class="md-form pb-3">
             <input type="password" name="pass"  id="Form-pass5" class="form-control validate white-text">
-            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
+            <label data-error="wrong" data-success="right" for="Form-pass5">Ваш пароль</label>
           </div>
           <!--Grid row-->
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
             <div class="text-center mb-3 col-md-12">
-              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Sign in</button>
+              <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1">Войти</button>
             </div>
             <!--Grid column-->
           </div>
@@ -393,8 +391,8 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-12">
-              <p  class="font-small white-text d-flex justify-content-end">Create Account? <a href="#" id="createsignup" class="green-text ml-1 font-weight-bold">
-                  Signup</a></p>
+              <p  class="font-small white-text d-flex justify-content-end">Нет аккаунта? <a href="#" id="createsignup" class="green-text ml-1 font-weight-bold">
+                  Зарегистрироваться</a></p>
             </div>
             <!--Grid column-->
           </div>
