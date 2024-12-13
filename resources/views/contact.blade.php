@@ -121,7 +121,7 @@
 					<div class="contact-right">
 						<div class="section-title">
 							<h3>Свяжитесь с нами</h3>
-							<p>Browse houses and flats for sale and to rent in your area</p>
+							<p>Если у вас возникли какие-нибудь вопросы, можете задать их по почте или телефону!</p>
 						</div>
 						<form class="contact-form">
 							<div class="row">

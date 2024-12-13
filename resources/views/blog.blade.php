@@ -109,52 +109,52 @@
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/1.jpg" alt="">
-					<h5><a href="single-blog.html">Housing confidence hits record high as prices skyrocket</a></h5>
+					<h5><a href="single-blog.html">В Пензе открылся склад №2 при поддержке Губернатора области!</a></h5>
 					<div class="blog-meta">
-						<span><i class="fa fa-user"></i>Ronaldo Rosario</span>
-						<span><i class="fa fa-clock-o"></i>25 Jun 2022</span>
+						<span><i class="fa fa-user"></i>Alexey Fedorov</span>
+						<span><i class="fa fa-clock-o"></i>01 Декабрь 2024</span>
 					</div>
-					<p>Beautiful House</p>
+					<p>Снабжаем город свободным местом...</p>
 				</div>
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/2.jpg" alt="">
-					<h5><a href="single-blog.html">Taylor Swift is selling her $2.95 million Beverly Hills mansion</a></h5>
+					<h5><a href="single-blog.html">Бизнес-конференция в офисе Московского отдела</a></h5>
 					<div class="blog-meta">
-						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
-						<span><i class="fa fa-clock-o"></i>25 Jun 2022</span>
+						<span><i class="fa fa-user"></i>Paul Ryasnov</span>
+						<span><i class="fa fa-clock-o"></i>28 Ноября 2024</span>
 					</div>
-					<p>Beautiful House</p>
+					<p>Встреча с инвесторами и многое другое!</p>
 				</div>
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/3.jpg" alt="">
-					<h5><a href="single-blog.html">NYC luxury housing market saturated with inventory, says celebrity realtor</a></h5>
+					<h5><a href="single-blog.html">Саратовский отдел празднует 5-летие со дня основания!</a></h5>
 					<div class="blog-meta">
-						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
-						<span><i class="fa fa-clock-o"></i>25 Jun 2022</span>
+						<span><i class="fa fa-user"></i>Artem Farafonov</span>
+						<span><i class="fa fa-clock-o"></i>24 Ноября 2024</span>
 					</div>
-					<p>Beautiful House</p>
+					<p>Все только начинается!</p>
 				</div>
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/4.jpg" alt="">
-					<h5><a href="single-blog.html">Sellers are increasingly stripping out luxury homes instead of tricking them out</a></h5>
+					<h5><a href="single-blog.html">Будут ли склады не только в областных, но и в районных центрах?</a></h5>
 					<div class="blog-meta">
-						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
-						<span><i class="fa fa-clock-o"></i>25 Jun 2022</span>
+						<span><i class="fa fa-user"></i>Alexey Fedorov</span>
+						<span><i class="fa fa-clock-o"></i>28 Сентября 2024</span>
 					</div>
-					<p>Beautiful House</p>
+					<p>Один из самых популярных вопросов.</p>
 				</div>
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/5.jpg" alt="">
-					<h5><a href="single-blog.html">Mortgage demand drops 2.5% on the highest rates in nearly 5 years </a></h5>
+					<h5><a href="single-blog.html">Поднятие вопроса выхода на мировой рынок, где и когда? </a></h5>
 					<div class="blog-meta">
-						<span><i class="fa fa-user"></i>Amanda Seyfried</span>
-						<span><i class="fa fa-clock-o"></i>25 Jun 2022</span>
+						<span><i class="fa fa-user"></i>Alexey Fedorov</span>
+						<span><i class="fa fa-clock-o"></i>25 Июня 2024</span>
 					</div>
-					<p>Beautiful House</p>
+					<p>Двигаемся вперед, невзирая на трудности!</p>
 				</div>
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
