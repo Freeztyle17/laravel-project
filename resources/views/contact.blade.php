@@ -6,7 +6,7 @@
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+	<!-- Favicon -->
 	<link href="img/icon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
@@ -31,7 +31,7 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 <!-- Header section -->
 <header class="header-section">
 		<div class="header-top" style="background-color: green;">
@@ -40,7 +40,7 @@
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
 							<i class="fa fa-phone"></i>
-							+639123456789
+                            +7 (917) 123-45-67 (Александр)
 						</div>
 						<div class="top-info">
 							<i class="fa fa-envelope"></i>
@@ -49,15 +49,15 @@
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href=""><i class="fa fa-vk"></i></a>
+                            <a href=""><i class="fa fa-telegram"></i></a>
+                            <a href=""><i class="fa fa-odnoklassniki"></i></a>
+
+                            <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
-							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
-							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Регистрация</a>
+							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Вход</a>
 						</div>
 					</div>
 				</div>
@@ -72,11 +72,11 @@
 							<i class="fa fa-bars"></i>
 						</div>
 						<ul class="main-menu">
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('about')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
+                            <li><a href="{{route('index')}}">Главная</a></li>
+                            <li><a href="{{route('about')}}">О Нас</a></li>
+                            <li><a href="{{route('postpage')}}">Склады</a></li>
+                            <li><a href="{{route('blog')}}">Новости</a></li>
+                            <li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/bg.jpg">
 		<div class="container text-white">
-			<h2>Contact Us</h2>
+			<h2>Контактная информация</h2>
 		</div>
 	</section>
 	<!--  Page top end -->
@@ -98,18 +98,20 @@
 	<div class="site-breadcrumb">
 		<div class="container">
 			<a href="{{route('index')}}"><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>Contact Us</span>
+			<span><i class="fa fa-angle-right"></i>Контакты</span>
 		</div>
 	</div>
 
 	<!-- page -->
 	<section class="page-section blog-page">
 		<div class="container">
-			<div id="map-canvas"></div>
+			<div id="map-canvas">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A603b80c230edf5e10a00ed1f7cdf3974bb2a88fcb3d0628f05bd5c8da5550ca4&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
 			<div class="contact-info-warp">
-				<p><i class="fa fa-map-marker"></i>Brgy.Enclaro,Binalbagan, Negros Occidental, Philippines</p>
-				<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
-				<p><i class="fa fa-phone"></i>+639123456789</p>
+				<p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
+				<p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
+				<p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
@@ -118,20 +120,20 @@
 				<div class="col-lg-6">
 					<div class="contact-right">
 						<div class="section-title">
-							<h3>Get in touch</h3>
+							<h3>Свяжитесь с нами</h3>
 							<p>Browse houses and flats for sale and to rent in your area</p>
 						</div>
 						<form class="contact-form">
 							<div class="row">
 								<div class="col-md-6">
-									<input type="text" placeholder="Your name">
+									<input type="text" placeholder="Ваше имя">
 								</div>
 								<div class="col-md-6">
-									<input type="text" placeholder="Your email">
+									<input type="text" placeholder="Ваш email">
 								</div>
 								<div class="col-md-12">
-									<textarea  placeholder="Your message"></textarea>
-									<button class="site-btn">SUMMIT NOW</button>
+									<textarea  placeholder="Ваше сообщение"></textarea>
+									<button class="site-btn">Отправить</button>
 								</div>
 							</div>
 						</form>
@@ -169,64 +171,58 @@
 
 
 <!-- Footer section -->
-<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>A usually fixed periodical return made by a tenant or occupant of property to the owner for the possession and use thereof especially : an agreed sum paid at fixed intervals by a tenant to the landlord.</p>
-					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="contact-widget">
-						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>Brgy.Enclaro, Binalbagan, Negros Occidental, Philippines</p>
-						<p><i class="fa fa-phone"></i>+639123456789</p>
-						<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
-						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
-						<ul>
-							<li><a href="">Bacolod</a></li>
-							<li><a href="">Kabankalan</a></li>
-							<li><a href="">Himamaylan</a></li>
-							<li><a href="">Binalbagan</a></li>
-							<li><a href="">Hinigaran</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Bago</a></li>
-							<li><a href="">Pontevedra</a></li>
-							<li><a href="">Don Salvador Benedicto</a></li>
-							<li><a href="">San Carlos</a></li>
-							<li><a href="">Talisay</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-			<div class="footer-bottom">
-				<div class="footer-nav">
-					<ul>
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('blog')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
-					</ul>
-				</div>
-				<span style="color:white">Online House Rental System. All Rights Reserved</span>
-			</div>
-		</div>
-	</footer>
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <img src="img/logo.png" alt="">
+                    <p>Обычно фиксированный периодический возврат, осуществляемый арендатором или занимающим его лицом
+                        имущества владельцу за владение и пользование им, в частности: согласованная сумма,
+                        выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="contact-widget">
+                        <h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
+                        <p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
+                        <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
+                        <p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
+                        <p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="double-menu-widget">
+                        <h5 class="fw-title">ГОРОДА С НАМИ</h5>
+                        <ul>
+                            <li><a href="">Саратов</a></li>
+                            <li><a href="">Волгоград</a></li>
+                            <li><a href="">Москва</a></li>
+                            <li><a href="">Пенза</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="{{route('index')}}">Главная</a></li>
+                        <li><a href="{{route('blog')}}">О Нас</a></li>
+                        <li><a href="{{route('postpage')}}">Склады</a></li>
+                        <li><a href="{{route('blog')}}">Блог</a></li>
+                        <li><a href="{{route('contact')}}">Контакты</a></li>
+                    </ul>
+                </div>
+                <span style="color:white">Арендация складских хранилищ. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
 	<!-- Footer section end -->
 
 <!-- Modal for Button-->
@@ -247,7 +243,7 @@
         <!--Body-->
         <div class="modal-body">
           <!--Body-->
-        
+
           <!--Grid row-->
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
@@ -284,7 +280,7 @@
   </div>
 </div>
 <!-- Modal for Button -->
-<!-- Modal Login -->	
+<!-- Modal Login -->
 <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog form-dark" role="document">
@@ -353,7 +349,7 @@
 <!-- Modal for signin-->
 
 
-                                        
+
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -363,28 +359,28 @@
 	<script src="js/main.js"></script>
 
 	<!-- load for map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
-	<script src="js/map.js"></script>
+
+{{--	<script src="js/map.js"></script>--}}
 
 
-	<script> 
+	<script>
 		$('#registerbutton').on('click', function() {
-    //  alert("hello"); 
-     $('#register').modal('show');  
+    //  alert("hello");
+     $('#register').modal('show');
  });
  $('#logbutton').on('click', function() {
-    //  alert("hello"); 
-     $('#login').modal('show');  
+    //  alert("hello");
+     $('#login').modal('show');
  });
  $('#createsignup').on('click', function() {
-	//  alert("hello"); 
+	//  alert("hello");
 	$('#login').modal('hide');
-     $('#register').modal('show');  
+     $('#register').modal('show');
  });
  $('#loginform').on('click', function() {
-	//  alert("hello"); 
+	//  alert("hello");
 	$('#register').modal('hide');
-     $('#login').modal('show');  
+     $('#login').modal('show');
  });
 	</script>
 

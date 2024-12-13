@@ -40,24 +40,23 @@
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
 							<i class="fa fa-phone"></i>
-							+639123456789
+                            +7 (917) 123-45-67 (Александр)
 						</div>
 						<div class="top-info">
 							<i class="fa fa-envelope"></i>
-							piesrentalsystem@gmail.com
+                            WorldWarehouseLeader@mail.ru
 						</div>
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href=""><i class="fa fa-vk"></i></a>
+                            <a href=""><i class="fa fa-telegram"></i></a>
+                            <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                            <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
-							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
-							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Регистрация</a>
+							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Вход</a>
 						</div>
 					</div>
 				</div>
@@ -75,7 +74,7 @@
 							<li><a href="{{route('index')}}">Главная</a></li>
 							<li><a href="{{route('about')}}">О Нас</a></li>
 							<li><a href="{{route('postpage')}}">Склады</a></li>
-							<li><a href="{{route('blog')}}">Блог</a></li>
+							<li><a href="{{route('blog')}}">Новости</a></li>
 							<li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
@@ -89,7 +88,7 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/page-top-bg.jpg">
 		<div class="container text-white">
-			<h2>About us</h2>
+			<h2>О нас</h2>
 		</div>
 	</section>
 	<!--  Page top end -->
@@ -97,8 +96,8 @@
 	<!-- Breadcrumb -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="{{route('index')}}"><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>About us</span>
+			<a href="{{route('index')}}"><i class="fa fa-home"></i>Главная</a>
+			<span><i class="fa fa-angle-right"></i>О нас</span>
 		</div>
 	</div>
 
@@ -108,7 +107,7 @@
 			<img class="mb-5" src="img/about.jpg" alt="">
 			<div class="row about-text">
 				<div class="col-xl-6 about-text-left">
-					<h5>ABOUT US</h5>
+					<h5>О нас</h5>
 					<p>The dominant methods for paying rent are cash (22 percent), check (42 percent), and money order (16 percent). Electronic methods are still rarely used, at 8 percent for bank account number payment and 7 percent for online banking bill payment, and less than 2 percent for debit and credit cards.
 .</p>
 					<p>Apartment searching can be exciting for tenants — it’s an opportunity for them to upgrade their life. Writing an engaging rental listing description is a way to sell a lifestyle you can provide. Tenants will be thrilled to find a better location, a better price, better amenities, or even a better landlord.
@@ -301,64 +300,58 @@
 
 
 	<!-- Footer section -->
-	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>A usually fixed periodical return made by a tenant or occupant of property to the owner for the possession and use thereof especially : an agreed sum paid at fixed intervals by a tenant to the landlord.</p>
-					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="contact-widget">
-						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>Brgy.Enclaro, Binalbagan, Negros Occidental, Philippines</p>
-						<p><i class="fa fa-phone"></i>+639123456789</p>
-						<p><i class="fa fa-envelope"></i>www.piesrentalsystem@gmail.com</p>
-						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
-						<ul>
-							<li><a href="">Bacolod</a></li>
-							<li><a href="">Kabankalan</a></li>
-							<li><a href="">Himamaylan</a></li>
-							<li><a href="">Binalbagan</a></li>
-							<li><a href="">Hinigaran</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Bago</a></li>
-							<li><a href="">Pontevedra</a></li>
-							<li><a href="">Don Salvador Benedicto</a></li>
-							<li><a href="">San Carlos</a></li>
-							<li><a href="">Talisay</a></li>
-						</ul>
-					</div>
-				</div>
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <img src="img/logo.png" alt="">
+                    <p>Обычно фиксированный периодический возврат, осуществляемый арендатором или занимающим его лицом
+                        имущества владельцу за владение и пользование им, в частности: согласованная сумма,
+                        выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="contact-widget">
+                        <h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
+                        <p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
+                        <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
+                        <p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
+                        <p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="double-menu-widget">
+                        <h5 class="fw-title">ГОРОДА С НАМИ</h5>
+                        <ul>
+                            <li><a href="">Саратов</a></li>
+                            <li><a href="">Волгоград</a></li>
+                            <li><a href="">Москва</a></li>
+                            <li><a href="">Пенза</a></li>
+                        </ul>
 
-			</div>
-			<div class="footer-bottom">
-				<div class="footer-nav">
-					<ul>
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('blog')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
-					</ul>
-				</div>
-				<span style="color:white">Online House Rental System. All Rights Reserved</span>
-			</div>
-		</div>
-	</footer>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="{{route('index')}}">Главная</a></li>
+                        <li><a href="{{route('blog')}}">О Нас</a></li>
+                        <li><a href="{{route('postpage')}}">Склады</a></li>
+                        <li><a href="{{route('blog')}}">Блог</a></li>
+                        <li><a href="{{route('contact')}}">Контакты</a></li>
+                    </ul>
+                </div>
+                <span style="color:white">Арендация складских хранилищ. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
 	<!-- Footer section end -->
 
 <!-- Modal for Button-->

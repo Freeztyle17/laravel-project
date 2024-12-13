@@ -47,11 +47,11 @@
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+							<a href=""><i class="fa fa-vk"></i></a>
+							<a href=""><i class="fa fa-telegram"></i></a>
+							<a href=""><i class="fa fa-odnoklassniki"></i></a>
+
+                            <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
 							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i>Регистрация</a>
@@ -73,7 +73,7 @@
 							<li><a href="{{route('index')}}">Главная</a></li>
 							<li><a href="{{route('about')}}">О Нас</a></li>
 							<li><a href="{{route('postpage')}}">Склады</a></li>
-							<li><a href="{{route('blog')}}">Блог</a></li>
+							<li><a href="{{route('blog')}}">Новости</a></li>
 							<li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
@@ -329,17 +329,16 @@
                         имущества владельцу за владение и пользование им, в частности: согласованная сумма,
                         выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
 					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 footer-widget">
 					<div class="contact-widget">
 						<h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
-						<p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 60/1</p>
+						<p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
                         <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
 						<p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
 						<p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>

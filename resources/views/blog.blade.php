@@ -6,7 +6,7 @@
 	<meta name="description" content="LERAMIZ Landing Page Template">
 	<meta name="keywords" content="LERAMIZ, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+	<!-- Favicon -->
 	<link href="img/icon.ico" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
@@ -31,7 +31,7 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="header-top" style="background-color: green;">
@@ -40,24 +40,24 @@
 					<div class="col-lg-6 header-top-left">
 						<div class="top-info">
 							<i class="fa fa-phone"></i>
-							+639123456789
+                            +7 (917) 123-45-67 (Александр)
 						</div>
 						<div class="top-info">
 							<i class="fa fa-envelope"></i>
-							piesrentalsystem@gmail.com
+                            WorldWarehouseLeader@mail.ru
 						</div>
 					</div>
 					<div class="col-lg-6 text-lg-right header-top-right">
 						<div class="top-social">
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href=""><i class="fa fa-vk"></i></a>
+                            <a href=""><i class="fa fa-telegram"></i></a>
+                            <a href=""><i class="fa fa-odnoklassniki"></i></a>
+
+                            <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
-							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
-							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Регистрация</a>
+							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Вход</a>
 						</div>
 					</div>
 				</div>
@@ -72,11 +72,11 @@
 							<i class="fa fa-bars"></i>
 						</div>
 						<ul class="main-menu">
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('about')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
+                            <li><a href="{{route('index')}}">Главная</a></li>
+                            <li><a href="{{route('about')}}">О Нас</a></li>
+                            <li><a href="{{route('postpage')}}">Склады</a></li>
+                            <li><a href="{{route('blog')}}">Новости</a></li>
+                            <li><a href="{{route('contact')}}">Контакты</a></li>
 						</ul>
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="img/bg.jpg">
 		<div class="container text-white">
-			<h2>Blog</h2>
+			<h2>Новости</h2>
 		</div>
 	</section>
 	<!--  Page top end -->
@@ -97,8 +97,8 @@
 	<!-- Breadcrumb -->
 	<div class="site-breadcrumb">
 		<div class="container">
-			<a href="{{route('index')}}"><i class="fa fa-home"></i>Home</a>
-			<span><i class="fa fa-angle-right"></i>Blog</span>
+			<a href="{{route('index')}}"><i class="fa fa-home"></i>Главная</a>
+			<span><i class="fa fa-angle-right"></i>Новости</span>
 		</div>
 	</div>
 
@@ -135,7 +135,7 @@
 						<span><i class="fa fa-clock-o"></i>25 Jun 2022</span>
 					</div>
 					<p>Beautiful House</p>
-				</div>			
+				</div>
 				<!-- blog post -->
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/4.jpg" alt="">
@@ -196,7 +196,7 @@
 					</div>
 					<p>Beautiful House</p>
 				</div>
-				
+
 			</div>
 			<div class="site-pagination">
 				<span>1</span>
@@ -235,64 +235,58 @@
 
 
 	<!-- Footer section -->
-	<footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
-					<p>Lorem ipsum dolo sit azmet, consecter dipise consult  elit. Maecenas mamus antesme non anean a dolor sample tempor nuncest erat.</p>
-					<div class="social">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="contact-widget">
-						<h5 class="fw-title">CONTACT US</h5>
-						<p><i class="fa fa-map-marker"></i>29F berkat market central plaza lahore </p>
-						<p><i class="fa fa-phone"></i>(+92) 301 716 0701</p>
-						<p><i class="fa fa-envelope"></i>www.rentallands.com</p>
-						<p><i class="fa fa-clock-o"></i>Mon - Sat, 08 AM - 06 PM</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 footer-widget">
-					<div class="double-menu-widget">
-						<h5 class="fw-title">POPULAR PLACES</h5>
-						<ul>
-							<li><a href="">Khanewal</a></li>
-							<li><a href="">Karachi</a></li>
-							<li><a href="">KPK</a></li>
-							<li><a href="">Attock</a></li>
-							<li><a href="">Rawelpindi</a></li>
-						</ul>
-						<ul>
-							<li><a href="">Sindh</a></li>
-							<li><a href="">Islamabad</a></li>
-							<li><a href="">Muree</a></li>
-							<li><a href="">Kashmeer</a></li>
-							<li><a href="">Sahiwal</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-			<div class="footer-bottom">
-				<div class="footer-nav">
-					<ul>
-							<li><a href="{{route('index')}}">Home</a></li>
-							<li><a href="{{route('blog')}}">About Us</a></li>
-							<li><a href="{{route('postpage')}}">Properties</a></li>
-							<li><a href="{{route('blog')}}">Blog</a></li>
-							<li><a href="{{route('contact')}}">Contact</a></li>
-					</ul>
-				</div>
-				<span style="color:white">Developer : Abdullah Iftikhar BSCS 14F014</span>
-			</div>
-		</div>
-	</footer>
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <img src="img/logo.png" alt="">
+                    <p>Обычно фиксированный периодический возврат, осуществляемый арендатором или занимающим его лицом
+                        имущества владельцу за владение и пользование им, в частности: согласованная сумма,
+                        выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
+                    <div class="social">
+                        <a href=""><i class="fa fa-vk"></i></a>
+                        <a href=""><i class="fa fa-telegram"></i></a>
+                        <a href=""><i class="fa fa-odnoklassniki"></i></a>
+                        <a href=""><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="contact-widget">
+                        <h5 class="fw-title">СВЯЖИТЕСЬ С НАМИ</h5>
+                        <p><i class="fa fa-map-marker"></i>Россия, г. Саратов, БЦ "Ковчег", Ул. Вавилова 38</p>
+                        <p><i class="fa fa-envelope"></i>WorldWarehouseLeader@mail.ru</p>
+                        <p><i class="fa fa-phone"></i>+7 (917) 123-45-67 (Александр)</p>
+                        <p><i class="fa fa-clock-o"></i>Понедельник - Пятница, 09:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-widget">
+                    <div class="double-menu-widget">
+                        <h5 class="fw-title">ГОРОДА С НАМИ</h5>
+                        <ul>
+                            <li><a href="">Саратов</a></li>
+                            <li><a href="">Волгоград</a></li>
+                            <li><a href="">Москва</a></li>
+                            <li><a href="">Пенза</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="{{route('index')}}">Главная</a></li>
+                        <li><a href="{{route('blog')}}">О Нас</a></li>
+                        <li><a href="{{route('postpage')}}">Склады</a></li>
+                        <li><a href="{{route('blog')}}">Блог</a></li>
+                        <li><a href="{{route('contact')}}">Контакты</a></li>
+                    </ul>
+                </div>
+                <span style="color:white">Арендация складских хранилищ. Все права защищены.</span>
+            </div>
+        </div>
+    </footer>
 	<!-- Footer section end -->
 
 <!-- Modal for Button-->
@@ -313,7 +307,7 @@
         <!--Body-->
         <div class="modal-body">
           <!--Body-->
-        
+
           <!--Grid row-->
           <div class="row d-flex align-items-center mb-4">
             <!--Grid column-->
@@ -350,7 +344,7 @@
   </div>
 </div>
 <!-- Modal for Button -->
-<!-- Modal Login -->	
+<!-- Modal Login -->
 <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog form-dark" role="document">
@@ -427,24 +421,24 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 
-	<script> 
+	<script>
 		$('#registerbutton').on('click', function() {
-    //  alert("hello"); 
-     $('#register').modal('show');  
+    //  alert("hello");
+     $('#register').modal('show');
  });
  $('#logbutton').on('click', function() {
-    //  alert("hello"); 
-     $('#login').modal('show');  
+    //  alert("hello");
+     $('#login').modal('show');
  });
  $('#createsignup').on('click', function() {
-	//  alert("hello"); 
+	//  alert("hello");
 	$('#login').modal('hide');
-     $('#register').modal('show');  
+     $('#register').modal('show');
  });
  $('#loginform').on('click', function() {
-	//  alert("hello"); 
+	//  alert("hello");
 	$('#register').modal('hide');
-     $('#login').modal('show');  
+     $('#login').modal('show');
  });
 	</script>
 
