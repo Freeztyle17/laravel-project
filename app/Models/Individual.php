@@ -17,4 +17,8 @@ class Individual extends Model
         'passport_number',
         'phone',
     ];
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

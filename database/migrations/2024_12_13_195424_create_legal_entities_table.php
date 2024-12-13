@@ -13,7 +13,9 @@ class CreateLegalEntitiesTable extends Migration
             $table->string('name');
             $table->string('inn');
             $table->string('phone');
+            $table->unsignedInteger('user_id');
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

@@ -17,7 +17,9 @@ class CreateIndividualsTable extends Migration
             $table->string('passport_series');
             $table->string('passport_number');
             $table->string('phone');
+            $table->unsignedInteger('user_id');
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
