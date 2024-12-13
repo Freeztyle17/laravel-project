@@ -2,6 +2,8 @@
 
 namespace App;
 
+use App\Models\Individual;
+use App\Models\LegalEntity;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -28,24 +30,11 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
     //todo поменять на юр физ
-    public function tenetrelation() {
-        return $this->hasOne(RegisterTenet::class,'user_id_fk','id');
+    public function fiz() {
+        return $this->hasOne(Individual::class);
     }
-    public function adminrelation() {
-        return $this->hasOne(RegisterAdmin::class,'user_id_fk','id');
-    }
-    public function advisorrelation() {
-        return $this->hasOne(RegisterAdvisor::class,'user_id_fk','id');
+    public function ur() {
+        return $this->hasOne(LegalEntity::class);
     }
 
-
-    public function user_1_conversation()
-    {
-        return $this->hasMany(Conversation::class,'user_1');
-    }
-
-    public function user_2_conversation()
-    {
-        return $this->hasMany(Conversation::class,'user_2');
-    }
 }

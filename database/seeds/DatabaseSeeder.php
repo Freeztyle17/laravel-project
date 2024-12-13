@@ -13,12 +13,12 @@ class DatabaseSeeder extends Seeder
     {
          $this->call([
             SystemRole::class,
-            UserTableSeeder::class,
-            TenetTableSeeder::class,
-            AdminTableSeeder::class,
-            AdvisorTableSeeder::class,
-            JazzIdTableSeeder::class,
-            PostTableSeeder::class,
+//            UserTableSeeder::class,
+//            TenetTableSeeder::class,
+//            AdminTableSeeder::class,
+//            AdvisorTableSeeder::class,
+//            JazzIdTableSeeder::class,
+//            PostTableSeeder::class,
              CitySeeder::class,
              WarehouseDistrictSeeder::class,
              WarehouseZoneSeeder::class,
