@@ -90,7 +90,7 @@
 			<h2>Необходимо хорошее хранилище? Мы поможем!</h2>
 			<p>Арендуйте складские помещения в вашем городе при посреднечестве WorldWarehouseLeader.ru®.
                 <br>Подберите нужное вам хранилище на нашем сайте!.</p>
-			<a href="{{route('postpage')}}" class="site-btn">Хранилища</a>
+			<a href="{{route('postpage')}}" class="site-btn text-white">Хранилища</a>
 		</div>
 	</section>
 	<!-- Hero section end -->
@@ -111,10 +111,10 @@
 {{--				<input style="width:29%;" type="text" name="c_name" placeholder="Город">--}}
                 <select style="width:35%" name="city">
                     <option value="">Город</option>
-                    <option value="Москва">Москва</option>
-                    <option value="Саратов">Саратов</option>
-                    <option value="Волгоград">Волгоград</option>
-                    <option value="Пенза">Пенза</option>
+                    <option value="Moscow">Москва</option>
+                    <option value="Saratov">Саратов</option>
+                    <option value="Volgograd">Волгоград</option>
+                    <option value="Penza">Пенза</option>
                 </select>
 {{--				<select name="state">--}}
 {{--				<option value="">-</option>--}}
@@ -172,7 +172,7 @@
 					</div>
 					<div class="services">
 						<div class="service-item">
-							<i class="fa fa-comments"></i>
+							<i class="fa fa-car"></i>
 							<div class="service-text">
 								<h5>Логистические услуги</h5>
 								<p>Услуги по упаковке, сортировке и распределению товаров, обеспечивая эффективную
@@ -182,7 +182,7 @@
 							</div>
 						</div>
 						<div class="service-item">
-							<i class="fa fa-home"></i>
+							<i class="fa fa-database"></i>
 							<div class="service-text">
 								<h5>Услуги по хранению и консолидации товаров</h5>
 								<p>
@@ -196,7 +196,7 @@
 							</div>
 						</div>
 						<div class="service-item">
-							<i class="fa fa-briefcase"></i>
+							<i class="fa fa-lock"></i>
 							<div class="service-text">
 								<h5>Безопасность</h5>
 								<p> услуги по обеспечению безопасности объектов. Это включает установку систем
@@ -263,7 +263,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 blog-item">
 					<img src="img/blog/1.jpg" alt="">
-					<h5><a href="single-blog.html">В Волгограде открылся 4ый склад при поддержке Губернатора области!</a></h5>
+					<h5><a href="single-blog.html">В Пензе открылся склад №2 при поддержке Губернатора области!</a></h5>
 					<div class="blog-meta">
 						<span><i class="fa fa-user"></i>Alexey Fedorov</span>
 						<span><i class="fa fa-clock-o"></i>01 Декабрь 2024</span>
@@ -324,7 +324,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 footer-widget">
-					<img src="img/logo.png" alt="">
+
 					<p>Обычно фиксированный периодический возврат, осуществляемый арендатором или занимающим его лицом
                         имущества владельцу за владение и пользование им, в частности: согласованная сумма,
                         выплачиваемая арендатором арендодателю через определенные промежутки времени</p>
