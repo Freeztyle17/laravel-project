@@ -27,7 +27,7 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
-
+    //todo поменять
     public function tenetrelation() {
         return $this->hasOne(RegisterTenet::class,'user_id_fk','id');
     }
@@ -38,7 +38,7 @@ class User extends Authenticatable
         return $this->hasOne(RegisterAdvisor::class,'user_id_fk','id');
     }
 
-    
+
     public function user_1_conversation()
     {
         return $this->hasMany(Conversation::class,'user_1');
