@@ -9,7 +9,7 @@ class WarehouseDistrict extends Model
 {
 
 
-    protected $fillable = ['district_number', 'address','image_url', 'city_id'];
+    protected $fillable = ['district_number', 'address','image_url', 'city_id','square_number'];
 
     public function city()
     {

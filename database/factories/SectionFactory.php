@@ -8,7 +8,7 @@ use App\Models\Section;
 
 $factory->define(Section::class, function (Faker $faker) {
     return [
-        'section_number' => $faker->unique()->numberBetween(1, 100),
+        'section_number' => 'SEC-' .  $faker->numberBetween(1, 100),
         'occupancy_status' => $faker->boolean,
     ];
 });

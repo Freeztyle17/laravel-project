@@ -6,7 +6,7 @@ use App\Models\Warehouse;
 
 $factory->define(Warehouse::class, function (Faker $faker) {
     return [
-        'warehouse_number' => $faker->unique()->numberBetween(1, 100),
+        'warehouse_number' => 'WH-' . $faker->numberBetween(1, 100),
         'occupancy_status' => $faker->boolean,
     ];
 });

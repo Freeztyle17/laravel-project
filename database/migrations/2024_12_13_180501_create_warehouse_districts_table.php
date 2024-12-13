@@ -16,6 +16,7 @@ class CreateWarehouseDistrictsTable extends Migration
         Schema::create('warehouse_districts', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('district_number');
+            $table->string('square_number');
             $table->string('address');
             $table->string('image_url')->nullable(); // Добавляем поле для ссылки на картинку
             $table->unsignedBigInteger('city_id');

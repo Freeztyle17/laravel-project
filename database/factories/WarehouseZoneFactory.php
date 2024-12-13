@@ -6,7 +6,7 @@ use App\Models\WarehouseZone;
 
 $factory->define(WarehouseZone::class, function (Faker $faker) {
     return [
-        'zone_number' => $faker->unique()->numberBetween(1, 100),
+        'zone_number' =>'WZ-' .  $faker->unique()->numberBetween(1, 100),
         'occupancy_status' => $faker->boolean,
     ];
 });

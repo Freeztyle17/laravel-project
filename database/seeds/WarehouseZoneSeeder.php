@@ -1,23 +1,18 @@
 <?php
 
+use App\Models\WarehouseDistrict;
 use Illuminate\Database\Seeder;
 use App\Models\WarehouseZone;
-use App\Models\WarehouseDistrict;
 
 class WarehouseZoneSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
     public function run()
     {
-        $warehouseZones = WarehouseZone::all();
+        $warehouseDistricts = WarehouseDistrict::all();
 
-        $warehouseZones->each(function ($zone) {
-            factory(Warehouse::class, 2)->create([
-                'warehouse_zone_id' => $zone->id,
+        $warehouseDistricts->each(function ($district) {
+            factory(WarehouseZone::class, 3)->create([
+                'warehouse_district_id' => $district->id,
             ]);
         });
     }

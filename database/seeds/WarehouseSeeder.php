@@ -11,7 +11,7 @@ class WarehouseSeeder extends Seeder
         $warehouseZones = WarehouseZone::all();
 
         $warehouseZones->each(function ($zone) {
-            Warehouse::factory()->count(2)->create([
+            factory(Warehouse::class, 2)->create([
                 'warehouse_zone_id' => $zone->id,
             ]);
         });
