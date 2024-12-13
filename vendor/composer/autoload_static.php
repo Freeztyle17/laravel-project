@@ -185,8 +185,8 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Zend\\Diactoros\\' => 
         array (
@@ -326,8 +326,8 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -504,6 +504,7 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         'AdminTableSeeder' => __DIR__ . '/../..' . '/database/seeds/AdminTableSeeder.php',
         'AdvisorTableSeeder' => __DIR__ . '/../..' . '/database/seeds/AdvisorTableSeeder.php',
         'App\\AdvisorPost' => __DIR__ . '/../..' . '/app/AdvisorPost.php',
+        'App\\City' => __DIR__ . '/../..' . '/app/City.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Conversation' => __DIR__ . '/../..' . '/app/Conversation.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
@@ -556,7 +557,11 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         'App\\RegisterAdvisor' => __DIR__ . '/../..' . '/app/RegisterAdvisor.php',
         'App\\RegisterTenet' => __DIR__ . '/../..' . '/app/RegisterTenet.php',
         'App\\Role' => __DIR__ . '/../..' . '/app/Role.php',
+        'App\\Section' => __DIR__ . '/../..' . '/app/Section.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\Warehouse' => __DIR__ . '/../..' . '/app/Warehouse.php',
+        'App\\WarehouseDistrict' => __DIR__ . '/../..' . '/app/WarehouseDistrict.php',
+        'App\\WarehouseZone' => __DIR__ . '/../..' . '/app/WarehouseZone.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
@@ -569,6 +574,7 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'Carbon\\Upgrade' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Upgrade.php',
+        'CitySeeder' => __DIR__ . '/../..' . '/database/seeds/CitySeeder.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
@@ -3842,6 +3848,7 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         'SebastianBergmann\\Timer\\RuntimeException' => __DIR__ . '/..' . '/phpunit/php-timer/src/RuntimeException.php',
         'SebastianBergmann\\Timer\\Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'SectionSeeder' => __DIR__ . '/../..' . '/database/seeds/SectionSeeder.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
@@ -4620,6 +4627,9 @@ class ComposerStaticInitff8c6ce526f00798a43482e707da38d7
         'UpdateHelper\\UpdateHelperInterface' => __DIR__ . '/..' . '/kylekatarnls/update-helper/src/UpdateHelper/UpdateHelperInterface.php',
         'UserTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UserTableSeeder.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'WarehouseDistrictSeeder' => __DIR__ . '/../..' . '/database/seeds/WarehouseDistrictSeeder.php',
+        'WarehouseSeeder' => __DIR__ . '/../..' . '/database/seeds/WarehouseSeeder.php',
+        'WarehouseZoneSeeder' => __DIR__ . '/../..' . '/database/seeds/WarehouseZoneSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\Assert\\InvalidArgumentException' => __DIR__ . '/..' . '/webmozart/assert/src/InvalidArgumentException.php',
         'Webmozart\\Assert\\Mixin' => __DIR__ . '/..' . '/webmozart/assert/src/Mixin.php',
