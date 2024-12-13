@@ -152,11 +152,11 @@
 			@endforeach
 
 			@else
-			@foreach(\App\AdvisorPost::all() as $postdata)
+			@foreach(\App\Models\WarehouseDistrict::all() as $postdata)
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="{{asset('sourceimg/post')}}/{{$postdata->image}}">
+						<div class="feature-pic set-bg" data-setbg="{{asset('sourceimg/post')}}/{{$postdata->image_url}}">
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -165,29 +165,29 @@
 							<div class="room-info-warp">
 								<div class="room-info">
                 <div class="rf-left">
-										<p><i class="fa fa-th-large"></i> {{$postdata->area}} sqr</p>
-										<p><i class="fa fa-bed"></i> {{$postdata->bedroom}} Bedrooms</p>
-										<p><i class="fa fa-compass"></i>{{$postdata->state}} </p>
+										<p><i class="fa fa-th-large"></i> {{$postdata->district_number}} sqr</p>
+										<p><i class="fa fa-bed"></i> {{$postdata->address}} Bedrooms</p>
+										<p><i class="fa fa-compass"></i>{{$postdata->address}} </p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-car"></i> {{$postdata->garage}} Garage</p>
-										<p><i class="fa fa-bath"></i> {{$postdata->bathroom}} Bathroom</p>
-										<p><i class="fa fa-map-marker"></i>{{$postdata->city}} </p>
+										<p><i class="fa fa-car"></i> {{$postdata->address}} Garage</p>
+										<p><i class="fa fa-bath"></i> {{$postdata->address}} Bathroom</p>
+										<p><i class="fa fa-map-marker"></i>{{$postdata->address}} </p>
 									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-lock"></i> {{$postdata->ownername}}</p>
+										<p><i class="fa fa-lock"></i> {{$postdata->address}}</p>
 									</div>
 									<div class="rf-right">
-										<p><i class="fa fa-clock-o"></i> {{$postdata->created_at->diffForHumans()}}</p>
+										<p><i class="fa fa-clock-o"></i> {{$postdata->address}}</p>
 									</div>
 								</div>
 							</div>
 							@if(\Illuminate\Support\Facades\Auth::check())
-							<a href="{{route('inbox',$postdata->advisor->user->id)}}" class="room-price">₱{{$postdata->rent}}</a>
+							<a href="{{route('inbox',$postdata->city->name)}}" class="room-price">₱{{$postdata->address}}</a>
 							@else
-							<a href="#" title="please Register" class="room-price">₱{{$postdata->rent}}</a>
+							<a href="#" title="please Register" class="room-price">₱{{$postdata->city->name}}</a>
 							@endif
 						</div>
 					</div>
