@@ -1,8 +1,8 @@
 /* =================================
 ------------------------------------
-	LERAMIZ - Landing Page Template
+	WWL - Landing Page Template
 	Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -16,7 +16,7 @@ $(window).on('load', function() {
 	/*------------------
 		Preloder
 	--------------------*/
-	$(".loader").fadeOut(); 
+	$(".loader").fadeOut();
 	$("#preloder").delay(400).fadeOut("slow");
 
 });
@@ -45,7 +45,7 @@ $(window).on('load', function() {
 	$('.gallery').find('.gallery-item').each(function() {
 		var pi_height1 = $(this).outerWidth(true),
 		pi_height2 = pi_height1/2;
-		
+
 		if($(this).hasClass('grid-long') && window_w > 991){
 			$(this).css('height', pi_height2);
 		}else{

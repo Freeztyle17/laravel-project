@@ -3,8 +3,8 @@
 <head>
 	<title>Warehouse World Leader</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="LERAMIZ Landing Page Template">
-	<meta name="keywords" content="LERAMIZ, unica, creative, html">
+	<meta name="description" content="WWL Landing Page Template">
+	<meta name="keywords" content="WWL, unica, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
 	<link href="img/icon.ico" rel="shortcut icon"/>
@@ -56,8 +56,8 @@
                             <a href=""><i class="fa fa-whatsapp"></i></a>
 						</div>
 						<div class="user-panel">
-							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Register</a>
-							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Login</a>
+							<a href="#" id="registerbutton"><i class="fa fa-user-circle-o"></i> Регистрация</a>
+							<a href="#" id="logbutton"><i class="fa fa-sign-in"></i> Войти</a>
 						</div>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i> {{$postdata->ownername}}</p>
+										<p><i class="fa fa-lock"></i> {{$postdata->ownername}}</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> {{$postdata->created_at->diffForHumans()}}</p>
@@ -177,7 +177,7 @@
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i> {{$postdata->ownername}}</p>
+										<p><i class="fa fa-lock"></i> {{$postdata->ownername}}</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> {{$postdata->created_at->diffForHumans()}}</p>
